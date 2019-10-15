@@ -1,0 +1,31 @@
+{
+  "name": "401-lab-01",
+  "version": "1.0.0",
+  "description": "LAB: Node Ecosystem",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --verbose",
+    "lint": "eslint './lib/validator.js' --fix",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahduv/401-lab-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahduv/401-lab-01/issues"
+  },
+  "homepage": "https://github.com/sarahduv/401-lab-01#readme",
+  "dependencies": {
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "jsdoc": "^3.6.3"
+  }
+}
